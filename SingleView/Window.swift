@@ -15,7 +15,7 @@ class Window: NSWindow {
                   defer flag: Bool)
     {
         super.init(contentRect: contentRect, styleMask: style, backing: backingStoreType, defer: flag)
-        
+        // make window transparent
         backgroundColor = .clear
         isMovableByWindowBackground = true
     }

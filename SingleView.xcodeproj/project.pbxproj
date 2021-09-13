@@ -14,7 +14,6 @@
 		DEC76AC326EA023F007D8EAE /* SingleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76AC226EA023F007D8EAE /* SingleViewTests.swift */; };
 		DEC76ACD26EA023F007D8EAE /* SingleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76ACC26EA023F007D8EAE /* SingleViewUITests.swift */; };
 		DEC76ADA26EA029F007D8EAE /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76AD926EA029F007D8EAE /* Window.swift */; };
-		DEC76ADC26EA0AA9007D8EAE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC76ADB26EA0AA9007D8EAE /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		DEC76AC826EA023F007D8EAE /* SingleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC76ACC26EA023F007D8EAE /* SingleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewUITests.swift; sourceTree = "<group>"; };
 		DEC76AD926EA029F007D8EAE /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
-		DEC76ADB26EA0AA9007D8EAE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 				DEC76AB526EA023F007D8EAE /* Assets.xcassets */,
 				DEC76AB726EA023F007D8EAE /* Main.storyboard */,
 				DEC76AD926EA029F007D8EAE /* Window.swift */,
-				DEC76ADB26EA0AA9007D8EAE /* TextView.swift */,
 			);
 			path = SingleView;
 			sourceTree = "<group>";
@@ -253,7 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC76AB426EA023E007D8EAE /* ViewController.swift in Sources */,
-				DEC76ADC26EA0AA9007D8EAE /* TextView.swift in Sources */,
 				DEC76AB226EA023E007D8EAE /* AppDelegate.swift in Sources */,
 				DEC76ADA26EA029F007D8EAE /* Window.swift in Sources */,
 			);

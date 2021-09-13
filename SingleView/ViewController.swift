@@ -14,8 +14,6 @@ class ViewController: NSViewController {
     @IBAction func action(_ sender: NSButton) {
         content.layer?.backgroundColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.2)
         
-//        content.backgroundColor = NSColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.2)
-        
         if count == 0 {
             content.string = "1234"
         }
@@ -31,12 +29,8 @@ class ViewController: NSViewController {
         count = (count + 1) % 3
         content.updateLayer()
     }
+    
     override func viewDidLoad() {
-//        content.layer?.backgroundColor = CGColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.2)
-//        content.wantsLayer = true
-        print("want update layer? \(content.wantsUpdateLayer)")
-//        content.layerContentsRedrawPolicy = .beforeViewResize
-        
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -47,7 +41,5 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-
 }
 
